@@ -1,0 +1,54 @@
+.bac-img{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/just.jpg');
+}
+
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 80%;
+    height:100vh;
+}
+
+.logo{
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.count{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size:80px;
+    font-weight: bolder;
+
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    color:#F00048;
+    text-decoration: underline !important;
+}
+
+
+.set{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    font-size: 40px !important;
+    margin-top: 130px;
+}
+
+.ll{
+    color: inherit !important;
+    text-decoration: none !important;
+}
